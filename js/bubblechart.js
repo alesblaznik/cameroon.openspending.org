@@ -96,7 +96,7 @@ OpenSpending.BubbleChart = function (config) {
         callback: function(data) {
             self.bt = new BubbleTree({
                 data: data,
-                container: '#wdmmg-bubbletree',
+                container: '#cm-bubbletree',
                 bubbleType: 'color',
                 nodeClickCallback: onNodeClick,
                 firstNodeCallback: onNodeClick,
